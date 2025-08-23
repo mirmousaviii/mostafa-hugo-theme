@@ -67,7 +67,7 @@ jobs:
         # run: hugo --minify --source exampleSite --themesDir ../.. --theme mostafa-hugo-theme -d public --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: exampleSite/public
 
